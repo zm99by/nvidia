@@ -1,6 +1,7 @@
 # nvidia
+list:
 
-434  lspci | grep -i nvidia
+434  :lspci | grep -i nvidia
 435  gcc --version
 436  uname -r
 437  sudo apt-get install linux-headers-$(uname -r)
