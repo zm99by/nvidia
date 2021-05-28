@@ -1,4 +1,5 @@
 # nvidia
+
 434  lspci | grep -i nvidia
 435  gcc --version
 436  uname -r
