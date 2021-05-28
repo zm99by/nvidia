@@ -1,8 +1,9 @@
 # nvidia
 list:
 
-434  :lspci | grep -i nvidia
-435  gcc --version
+-  lspci | grep -i nvidia
+-  gcc --version
+-  
 436  uname -r
 437  sudo apt-get install linux-headers-$(uname -r)
 438  sudo /usr/local/cuda-X.Y/bin/cuda-uninstaller
