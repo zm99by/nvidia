@@ -6,7 +6,6 @@ list:
 -  uname -r
 -  sudo apt-get install linux-headers-$(uname -r)
 -  sudo /usr/local/cuda-X.Y/bin/cuda-uninstaller
--  udo /usr/bin/nvidia-uninstall
 -  sudo /usr/bin/nvidia-uninstall
 -  sudo apt-get install linux-headers-$(uname -r)
 -  distribution=$(. /etc/os-release;echo $ID$VERSION_ID | sed -e 's/\.//g')
